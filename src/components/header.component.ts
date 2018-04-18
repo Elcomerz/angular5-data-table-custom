@@ -1,4 +1,4 @@
-import { Component, Inject, forwardRef } from '@angular/core';
+import { Component, Inject, forwardRef, Input } from '@angular/core';
 import { DataTable } from './table.component';
 import { HEADER_TEMPLATE } from './header.template';
 import { HEADER_STYLE } from './header.style';
@@ -15,6 +15,8 @@ export class DataTableHeader {
 
     columnSelectorOpen = false;
 
+    @Input() width="800";
+    
     _closeSelector() {
         this.columnSelectorOpen = false;
     }

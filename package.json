@@ -1,6 +1,6 @@
 {
   "name": "angular5-data-table-custom",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "An accessible Angular 5 data table, with pagination, sorting, expandable rows, scrolling, sizing, etc.",
   "keywords": [
     "angular",
@@ -13,7 +13,7 @@
     "pagination",
     "sorting",
     "accessibility",
-    "scrolling", 
+    "scrolling",
     "sizing"
   ],
   "author": "Vigneshwaran Ganesan <vigneshwaran.elcomerz@gmail.com>",
@@ -22,10 +22,10 @@
   "bugs": {
     "url": "https://github.com/Elcomerz/angular5-data-table-custom/issues"
   },
-  "main": "./bundles/angular5-data-table.umd.js",
-  "module": "./esm5/angular5-data-table.js",
-  "es2015": "./esm2015/angular5-data-table.js",
-  "typings": "angular5-data-table.d.ts",
+  "main": "./bundles/angular5-data-table-custom.umd.js",
+  "module": "./esm5/angular5-data-table-custom.js",
+  "es2015": "./esm2015/angular5-data-table-custom.js",
+  "typings": "angular5-data-table-custom.d.ts",
   "scripts": {
     "build": "node build.js",
     "test": "karma start",
@@ -72,7 +72,7 @@
     "karma-spec-reporter": "0.0.31",
     "karma-webpack": "2.0.5",
     "reflect-metadata": "0.1.10",
-    "rollup": "^0.53.1",
+    "rollup": "^0.53.4",
     "rollup-plugin-license": "0.5.0",
     "rollup-plugin-node-resolve": "3.0.0",
     "rollup-plugin-sourcemaps": "0.4.2",
@@ -82,7 +82,7 @@
     "ts-loader": "3.1.1",
     "tslint": "5.8.0",
     "typescript": "2.4.2",
-    "uglify-js": "3.1.6",
+    "uglify-js": "^3.1.6",
     "webpack": "3.8.1",
     "zone.js": "0.8.18"
   }
