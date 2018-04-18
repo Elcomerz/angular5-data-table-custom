@@ -17,7 +17,6 @@ It's based on Bootstrap v4.0.0 and Font v4.7.0, so you need to include them in t
 
 The component can be used not just with local data, but remote resources too: for example if the sorting and paging happen in the database.
 
-Checkout [this](https://ggmod.github.io/angular-2-data-table-demo/) for a demo.
 
 ## Installing
 `npm install angular5-data-table-custom --save`
