@@ -1,7 +1,7 @@
 {
-  "name": "angular5-data-table",
-  "version": "0.5.1",
-  "description": "An accessible Angular 5 data table, with pagination, sorting, expandable rows etc.",
+  "name": "angular5-data-table-custom",
+  "version": "0.0.1",
+  "description": "An accessible Angular 5 data table, with pagination, sorting, expandable rows, scrolling, sizing, etc.",
   "keywords": [
     "angular",
     "angular5",
@@ -12,13 +12,15 @@
     "data table",
     "pagination",
     "sorting",
-    "accessibility"
+    "accessibility",
+    "scrolling", 
+    "sizing"
   ],
-  "author": "Bruno Bruzzano <brunano21@gmail.com>",
+  "author": "Vigneshwaran Ganesan <vigneshwaran.elcomerz@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/brunano21/angular-4-data-table#readme",
+  "homepage": "https://github.com/Elcomerz/angular5-data-table-custom#readme",
   "bugs": {
-    "url": "https://github.com/brunano21/angular-4-data-table/issues"
+    "url": "https://github.com/Elcomerz/angular5-data-table-custom/issues"
   },
   "main": "./bundles/angular5-data-table.umd.js",
   "module": "./esm5/angular5-data-table.js",
@@ -35,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brunano21/angular-4-data-table.git"
+    "url": "git+https://github.com/Elcomerz/angular5-data-table-custom.git"
   },
   "dependencies": {
     "tslib": "^1.7.1"

@@ -15,14 +15,15 @@ export const TABLE_STYLE = `
 
 /* I can't use the bootstrap striped table, because of the expandable rows */
 :host /deep/ .row-odd {
-    background-color: #F6F6F6;
+    background-color: #fafafa;
 }
 :host /deep/ .row-even {
+    background-color: #eeeeee;
 }
 
 .data-table .substitute-rows > tr:hover,
 :host /deep/ .data-table .data-table-row:hover {
-    background-color: #ECECEC;
+    background-color: #e0e0e0;
 }
 /* table itself: */
 
@@ -89,5 +90,36 @@ export const TABLE_STYLE = `
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+}
+
+//scrolling and fixed header
+.dtb-v-scroll {
+    overflow-y: scroll;
+}
+
+.dtb-h-scroll {
+    overflow-x: scroll;
+}
+
+.data-table-box {
+    position: relative;
+}
+
+.loading-cover {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 255, 255, 0.3);
+   top: 0;
+}
+
+.fixed-header{
+    /* margin-bottom: -33px; */
+    /* width: 985px; */
+}
+
+.header-box{
+    background: #ffffff;
+    z-index: 1;
 }
 `;

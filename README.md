@@ -1,4 +1,4 @@
-## Angular 5 Data Table
+## Angular 5 Data Table Custom
 
 Note: Originally, it was fork of this [package](https://github.com/MIt9/angular-4-data-table).
 
@@ -10,6 +10,8 @@ A simple Angular 5 data table, with built-in solutions for features including:
 * column resizing
 * selecting visible columns
 * accessibility (basic)
+* scrolling
+* sizing
 
 It's based on Bootstrap v4.0.0 and Font v4.7.0, so you need to include them in the application using it.
 
@@ -18,7 +20,7 @@ The component can be used not just with local data, but remote resources too: fo
 Checkout [this](https://ggmod.github.io/angular-2-data-table-demo/) for a demo.
 
 ## Installing
-`npm install angular5-data-table --save`
+`npm install angular5-data-table-custom --save`
 
 ## Development
 For creating a distributable version, run `npm run build`, then run `npm run pack-lib`. This will create a tar.gz file containing the library, which can be installed within your projects. The packager system is based on [Angular Library Starter](https://github.com/robisim74/angular-library-starter/)
