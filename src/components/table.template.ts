@@ -2,8 +2,8 @@ export const TABLE_TEMPLATE = `
 <div class="data-table-wrapper">
 <data-table-header *ngIf="header" [width]="width"></data-table-header>
 	
-<div class="data-table-box header-box" [style.width]="width | px">
-<table class="table table-condensed table-bordered data-table fixed-header" [style.width]="width -15| px" [style.margin-bottom]= "-headerHeight | px" >
+<div class="data-table-box header-box" [style.width.%]="width" [ngClass]="{'shrinkHW': shrinkHeader}">
+<table class="table table-condensed table-bordered data-table fixed-header" [style.margin-bottom]= "-headerHeight | px" [style.width.px]="-15" >
             <thead>
                 <tr>
                     <th scope="col" [hide]="!expandColumnVisible" class="expand-column-header">
@@ -33,8 +33,8 @@ export const TABLE_TEMPLATE = `
         </table>
     </div>
 
-    <div class="data-table-box" [style.width]="width | px" [style.height]="height | px" [ngClass]="{'dtb-v-scroll': scrollV, 'dtb-h-scroll': scrollH}">
-    <table class="table table-condensed table-bordered data-table" [style.width]="width -15| px">
+    <div class="data-table-box" [style.width.%]="width" [style.height.vh]="height" [style.overflow-y]="scrollV" [style.overflow-x]="scrollH">
+    <table class="table table-condensed table-bordered data-table">
             <thead>
                 <tr>
                     <th scope="col" [hide]="!expandColumnVisible" class="expand-column-header">

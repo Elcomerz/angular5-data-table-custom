@@ -1,5 +1,5 @@
 export const HEADER_TEMPLATE = `
-<div class="data-table-header" [style.width] = "width | px" >
+<div class="data-table-header" [style.width.%] = "width" >
     <h4 class="title" [textContent]="dataTable.headerTitle"></h4>
     <div class="button-panel">
         <button type="button" class="btn btn-default btn-sm refresh-button"

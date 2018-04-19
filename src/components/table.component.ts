@@ -61,12 +61,12 @@ export class DataTable implements DataTableParams, OnInit {
 	@Input() noDataMessage: string;
 
 	//scroll and dimension
-	@Input() scrollV = false;
-    @Input() scrollH = false;
-    @Input() height = 450;
-    @Input() width = 900;
+	@Input() scrollV = "hidden";
+    @Input() scrollH = "hidden";
+    @Input() height = 75;
+    @Input() width = 80;
     @Input() headerHeight = 40;
-
+	@Input() shrinkHeader = false;
 
 	// UI state without input:
 	indexColumnVisible: boolean;

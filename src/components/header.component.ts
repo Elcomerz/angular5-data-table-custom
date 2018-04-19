@@ -15,8 +15,8 @@ export class DataTableHeader {
 
     columnSelectorOpen = false;
 
-    @Input() width="800";
-    
+    @Input() width=80;
+
     _closeSelector() {
         this.columnSelectorOpen = false;
     }

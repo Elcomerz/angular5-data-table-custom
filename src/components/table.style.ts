@@ -104,7 +104,9 @@ export const TABLE_STYLE = `
 .data-table-box {
     position: relative;
 }
-
+.shrinkHW{
+    width: 99.2% !important;
+}
 .loading-cover {
    position: absolute;
    width: 100%;
