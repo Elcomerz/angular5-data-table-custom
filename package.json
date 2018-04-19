@@ -1,6 +1,6 @@
 {
   "name": "angular5-data-table-custom",
-  "version": "0.0.4444  "description": "An accessible Angular 5 data table, with pagination, sorting, expandable rows, scrolling, sizing, etc.",
+  "version": "0.0.4"description": "An accessible Angular 5 data table, with pagination, sorting, expandable rows, scrolling, sizing, etc.",
   "keywords": [
     "angular",
     "angular5",
